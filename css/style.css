@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i");
+/* general style */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffff;
+  color: #7e7e7e;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  color: #2e2e2e;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  line-height: 1.5;
+  margin: 0 0 8px;
+  letter-spacing: 0.7px;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+/* main style */
+.navbar-brand img {
+  width: 60px;
+  height: 44px;
+}
+
+.caption-grid .card-title {
+  font-size: 15px;
+}
+
+.caption-grid .grid-info {
+  color: #460479;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.category-text .badge {
+  background: #460479;
+  color: #fff;
+  font-size: 85%;
+  margin-right: 0.2rem;
+}
+
+.grid-slider {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+
+.grid-slider .slick-arrow {
+  position: absolute;
+  right: 0px;
+  top: 40%;
+  font-size: 20px;
+  color: #bbbbbb;
+  cursor: pointer;
+  margin: -17px 0px 0px 0px;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  background: #fff;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.grid-slider .slick-arrow-left {
+  left: 0px;
+  right: auto;
+}
+
+.main .link {
+  color: #460479;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 480px) {
+  .main .link {
+    border: 1px solid #eee;
+    padding: 11px 22px;
+    border-radius: 5px;
+    margin: 0px 25px;
+  }
+  .main:hover {
+    color: #460479;
+  }
+}
+/*# sourceMappingURL=style.css.map */
